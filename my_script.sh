@@ -9,12 +9,15 @@ apt  install python --assume-yes
 apt  install python2 --assume-yes
 pip  install --upgrade pip
 clear
-echo -e "\e[91mCOMPLETE​ PHASE​ 1 \e[0m";
+echo COMPLETE​ PHASE​ 1 
 sleep 3
-echo -e "\e[34mPHASE​ 2 RUN!!! \e[0m";
+echo    
+echo     
+sleep 2 
+echo PHASE​ 2 RUN!!! 
 sleep  3
-cd
 git  clone https://github.com/sidneypepo/kalischemes4termux
-cd kalischemes4termux 
-bash  bash kalischemes4termux.sh
+cd kalischemes4termux/
+sleep 2
+bash kalischemes4termux.sh
 01
