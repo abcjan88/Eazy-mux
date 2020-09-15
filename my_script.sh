@@ -1,5 +1,6 @@
 clear
-echo -e "\e[34mTHANK YOU FOR USE MY SCRIPT​\e[0m";
+echo THANK YOU FOR USE MY SCRIPT​
+sleep 3
 apt  update
 apt  upgrade -​y
 clear
