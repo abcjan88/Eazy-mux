@@ -19,4 +19,6 @@ sleep 2
 echo PHASE​ 2 RUN!!! 
 sleep  3
 git  clone https://github.com/sidneypepo/kalischemes4termux
-
+git clone https://github.com/Inject-ID/tombol-special-termux
+cd tombol-special-termux
+python2 special.py
