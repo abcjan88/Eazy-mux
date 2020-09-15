@@ -12,7 +12,8 @@ echo -e "\e[91mCOMPLETE​ PHASE​ 1 \e[0m";
 sleep 3
 echo -e "\e[34mPHASE​ 2 RUN!!! \e[0m";
 sleep  3
+cd
 git  clone https://github.com/sidneypepo/kalischemes4termux
-cd kalischemes4termux
+cd kalischemes4termux 
 bash  bash kalischemes4termux.sh
 01
